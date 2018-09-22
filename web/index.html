@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>NotApp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="Notas.js"></script>
+    </head>
+    <body>
+        <br>
+        <br>
+        <p class="title is-1 has-text-centered">NotApp</p>
+        <br>
+        <form action="" method="post" id="formulario">
+            <div class="columns">
+                <div class="column">
+                </div>
+                <div class="column">
+                    <div class="field">
+                        <label class="label">Nombre</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input NoNumeros" type="text" placeholder="Andres" name="nombre" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                        <br>
+                        <label class="label">Apellido</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input NoNumeros" type="text" placeholder="Alcaraz" name="apellido" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </div>
+                        <br>
+                        <label class="label">Carrera</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input NoNumeros" type="text" placeholder="Ing Informatica" name="carrera" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-school"></i>
+                            </span>
+                        </div>
+                        <br>
+                        <label class="label">Nota 1</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input NoLetras" type="text" placeholder="4.5" name="nota1" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-clipboard-check"></i>
+                            </span>
+                        </div>
+                        <br>
+                        <label class="label">Nota 2</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input NoLetras" type="text" placeholder="3.8" name="nota2" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-clipboard-check"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <br>
+                    <br>
+                    <br>
+                    <input class="button is-large is-fullwidth is-primary" type="reset" value="Re-cargar">
+                    <br>
+                    <input class="button is-large is-fullwidth is-success" type="submit" id="Enviar" value="Enviar">
+                    <br>
+                    <input class="button is-large is-fullwidth is-link" type="submit" id="JSP2" value="Nombre Alrevez">
+                    <br>
+                    <input class="button is-large is-fullwidth is-warning" type="submit" id="JSP3" value="Nombre Listado">
+                </div>
+                <div class="column">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
